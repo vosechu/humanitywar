@@ -1,0 +1,11 @@
+!!!
+%html
+  %head
+    %link{href: "/css/normalize.css", rel: "stylesheet"}
+    %link{href: "/css/global.css", rel: "stylesheet"}
+    %link{href: "/css/pages.css", rel: "stylesheet"}
+    %script{src: "http://code.jquery.com/jquery-1.9.1.min.js"}
+    %script{src: "http://code.jquery.com/jquery-migrate-1.1.1.min.js"}
+  %body{id: @body_id}
+    #wrapper
+      = yield

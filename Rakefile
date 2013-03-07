@@ -1,0 +1,2 @@
+namespace :humanitywar do
+end

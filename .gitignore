@@ -2,6 +2,7 @@
 *.rbc
 .bundle
 .config
+.sass-cache
 coverage
 InstalledFiles
 lib/bundler/man
@@ -11,9 +12,6 @@ spec/reports
 test/tmp
 test/version_tmp
 tmp
-
-# sass
-.sass_cache
 
 # YARD artifacts
 .yardoc

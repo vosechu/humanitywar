@@ -8,6 +8,7 @@ gem "sinatra-contrib"
 gem "dm-core"
 gem "dm-mysql-adapter"
 gem "dm-timestamps"
+gem "dm-migrations"
 
 group :assets do
   gem "sass"

@@ -3,7 +3,13 @@ APP_ROOT = File.expand_path(File.dirname(__FILE__))
 require 'rubygems'
 require 'sinatra'
 require 'haml'
+require 'sass'
+require 'coffee_script'
 require 'sinatra/reloader' if development?
+
+$LOAD_PATH << './lib'
+require 'entry.rb'
+require 'card.rb'
 
 set :root, APP_ROOT
 
